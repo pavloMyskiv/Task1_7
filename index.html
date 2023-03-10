@@ -1,0 +1,77 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper-slider">
+      <div class="slides">
+        <input type="radio" id="switch1" name="slide" checked />
+        <input type="radio" id="switch2" name="slide" />
+        <input type="radio" id="switch3" name="slide" />
+
+        <div class="slide1">
+          <div class="slide_img">
+            <img src="./image/HTML5_logo.png" alt="" />
+          </div>
+          <div class="slide_text">
+            <h2>HyperText Markup Language</h2>
+            <p>
+              HTML is a markup language used for creating web pages and other
+              types of documents viewed in web browsers. It uses tags and
+              attributes to structure content and define its meaning, and allows
+              for the inclusion of multimedia and other types of content within
+              a web page.
+            </p>
+          </div>
+        </div>
+        <div class="slide2">
+          <div class="slide_img">
+            <img src="./image/CSS3_logo.png" alt="" />
+          </div>
+          <div class="slide_text">
+            <h2>Cascading Style Sheets</h2>
+            <p>
+              CSS is a language used to describe the presentation of HTML and
+              XML documents, including colors, fonts, layouts, and other visual
+              elements. CSS allows developers to separate the structure of a
+              document from its presentation, making it easier to maintain and
+              update web pages.
+            </p>
+          </div>
+        </div>
+        <div class="slide3">
+          <div class="slide_img"><img src="./image/JS_logo.png" alt="" /></div>
+          <div class="slide_text">
+            <h2>JavaScript</h2>
+            <p>
+              JavaScript is a high-level programming language that is commonly
+              used for creating interactive web pages and dynamic user
+              interfaces. It is primarily executed in web browsers, but can also
+              be run on servers and other platforms using Node.js.
+            </p>
+          </div>
+        </div>
+
+        <label for="switch1" class="left1"></label>
+        <label for="switch2" class="left2"></label>
+        <label for="switch3" class="left3"></label>
+
+        <label for="switch1" class="right1"></label>
+        <label for="switch2" class="right2"></label>
+        <label for="switch3" class="right3"></label>
+      </div>
+      <div class="navigation">
+        <label for="switch1" class="bar b1"></label>
+        <label for="switch2" class="bar"></label>
+        <label for="switch3" class="bar"></label>
+      </div>
+    </div>
+  </body>
+</html>
